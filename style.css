@@ -109,7 +109,6 @@
 }
 
 /* fifth square */
-
 .ex-5-square{
     transition: all 2s;
 }
@@ -120,4 +119,10 @@
 
 .ex-5-square:active{
     transform: scale(0.5);
+}
+
+
+/* first img */
+.ex-6-img:hover{
+    filter: saturate(0%);
 }
