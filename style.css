@@ -100,11 +100,13 @@
 }
 
 /* fourth square */
-.ex-4-square:hover{
-    display: none;
+.ex-4-square{
+    transition: background-color 1s;
 }
 
-
+.ex-4-square:hover{
+    background-color: transparent;
+}
 
 /* fifth square */
 
