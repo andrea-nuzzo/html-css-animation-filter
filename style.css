@@ -159,16 +159,39 @@ transition: filter 2s;
 }
 
 
-/* bonus first */
+/* first bonus */
 .ex-10-icon{
-    animation-name: mymove;
+    animation-name: rotation;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    position: relative;
+    
 }
 
-@keyframes mymove {
+@keyframes rotation {
     from {transform: rotate(360deg);}
     to {transform: rotate(0deg);}
+}
+
+
+/* second bonus */
+.ex-11-icon:hover{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+      }
+
+    90% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
