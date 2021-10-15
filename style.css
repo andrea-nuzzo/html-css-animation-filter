@@ -157,3 +157,18 @@ transition: filter 2s;
     filter: sepia(70%);
     border-radius: 30px;
 }
+
+
+/* bonus first */
+.ex-10-icon{
+    animation-name: mymove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes mymove {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
